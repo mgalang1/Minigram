@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E521F14C1509D26A00FBA392 /* NSMutableData+MGMultipartFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = E521F14B1509D26A00FBA392 /* NSMutableData+MGMultipartFormData.m */; };
+		E55477AC150330030075D4CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477AB150330030075D4CF /* UIKit.framework */; };
+		E55477AE150330030075D4CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477AD150330030075D4CF /* Foundation.framework */; };
+		E55477B0150330030075D4CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477AF150330030075D4CF /* CoreGraphics.framework */; };
+		E55477B6150330030075D4CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55477B4150330030075D4CF /* InfoPlist.strings */; };
+		E55477B8150330030075D4CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E55477B7150330030075D4CF /* main.m */; };
+		E55477BC150330030075D4CF /* MyMinigramAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E55477BB150330030075D4CF /* MyMinigramAppDelegate.m */; };
+		E55477C4150330030075D4CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477C3150330030075D4CF /* SenTestingKit.framework */; };
+		E55477C5150330030075D4CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477AB150330030075D4CF /* UIKit.framework */; };
+		E55477C6150330030075D4CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55477AD150330030075D4CF /* Foundation.framework */; };
+		E55477CE150330030075D4CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55477CC150330030075D4CF /* InfoPlist.strings */; };
+		E55477D1150330030075D4CF /* MyMinigramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55477D0150330030075D4CF /* MyMinigramTests.m */; };
+		E55477DB1503E8AA0075D4CF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55477DA1503E8AA0075D4CF /* Storyboard.storyboard */; };
+		E55477DE1503EED70075D4CF /* PhotoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55477DD1503EED70075D4CF /* PhotoStreamViewController.m */; };
+		E55477E11503EEFB0075D4CF /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55477E01503EEFB0075D4CF /* PhotoDetailViewController.m */; };
+		E554783715056F4D0075D4CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E554783515056F3A0075D4CF /* CoreLocation.framework */; };
+		E554783A150572030075D4CF /* PhotoCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = E5547839150572030075D4CF /* PhotoCollection.m */; };
+		E554783C15057DFB0075D4CF /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = E554783B15057DFB0075D4CF /* Placeholder.png */; };
+		E55478431505FC280075D4CF /* ThumbnailDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E55478421505FC270075D4CF /* ThumbnailDownloader.m */; };
+		E554785315072B590075D4CF /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E554785215072B590075D4CF /* ImageDownloader.m */; };
+		E554785F1508877C0075D4CF /* imageSourceOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554785E1508877C0075D4CF /* imageSourceOption.xib */; };
+		E554786115088D2B0075D4CF /* imageCaptionBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554786015088D2B0075D4CF /* imageCaptionBar.xib */; };
+		E554786415088D950075D4CF /* camera-button-bar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E554786215088D940075D4CF /* camera-button-bar-background.png */; };
+		E554786515088D950075D4CF /* camera-button-bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E554786315088D940075D4CF /* camera-button-bar-background@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55477C7150330030075D4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E554779E150330020075D4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55477A6150330030075D4CF;
+			remoteInfo = MyMinigram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E521F1491509D23200FBA392 /* NSMutableData+MGMultipartFormData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+MGMultipartFormData.h"; path = "MyMinigram/NSMutableData+MGMultipartFormData.h"; sourceTree = "<group>"; };
+		E521F14B1509D26A00FBA392 /* NSMutableData+MGMultipartFormData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+MGMultipartFormData.m"; path = "MyMinigram/NSMutableData+MGMultipartFormData.m"; sourceTree = "<group>"; };
+		E55477A7150330030075D4CF /* MyMinigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMinigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55477AB150330030075D4CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E55477AD150330030075D4CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E55477AF150330030075D4CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E55477B3150330030075D4CF /* MyMinigram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMinigram-Info.plist"; sourceTree = "<group>"; };
+		E55477B5150330030075D4CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E55477B7150330030075D4CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E55477B9150330030075D4CF /* MyMinigram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMinigram-Prefix.pch"; sourceTree = "<group>"; };
+		E55477BA150330030075D4CF /* MyMinigramAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMinigramAppDelegate.h; sourceTree = "<group>"; };
+		E55477BB150330030075D4CF /* MyMinigramAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMinigramAppDelegate.m; sourceTree = "<group>"; };
+		E55477C2150330030075D4CF /* MyMinigramTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMinigramTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55477C3150330030075D4CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E55477CB150330030075D4CF /* MyMinigramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMinigramTests-Info.plist"; sourceTree = "<group>"; };
+		E55477CD150330030075D4CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E55477CF150330030075D4CF /* MyMinigramTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMinigramTests.h; sourceTree = "<group>"; };
+		E55477D0150330030075D4CF /* MyMinigramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMinigramTests.m; sourceTree = "<group>"; };
+		E55477DA1503E8AA0075D4CF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		E55477DC1503EED70075D4CF /* PhotoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamViewController.h; sourceTree = "<group>"; };
+		E55477DD1503EED70075D4CF /* PhotoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewController.m; sourceTree = "<group>"; };
+		E55477DF1503EEFB0075D4CF /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		E55477E01503EEFB0075D4CF /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		E554783515056F3A0075D4CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E5547838150572030075D4CF /* PhotoCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollection.h; sourceTree = "<group>"; };
+		E5547839150572030075D4CF /* PhotoCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollection.m; sourceTree = "<group>"; };
+		E554783B15057DFB0075D4CF /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		E55478411505FC270075D4CF /* ThumbnailDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailDownloader.h; sourceTree = "<group>"; };
+		E55478421505FC270075D4CF /* ThumbnailDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailDownloader.m; sourceTree = "<group>"; };
+		E554785115072B580075D4CF /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		E554785215072B590075D4CF /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		E554785E1508877C0075D4CF /* imageSourceOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageSourceOption.xib; sourceTree = "<group>"; };
+		E554786015088D2B0075D4CF /* imageCaptionBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageCaptionBar.xib; sourceTree = "<group>"; };
+		E554786215088D940075D4CF /* camera-button-bar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-button-bar-background.png"; sourceTree = "<group>"; };
+		E554786315088D940075D4CF /* camera-button-bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-button-bar-background@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E55477A4150330030075D4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E554783715056F4D0075D4CF /* CoreLocation.framework in Frameworks */,
+				E55477AC150330030075D4CF /* UIKit.framework in Frameworks */,
+				E55477AE150330030075D4CF /* Foundation.framework in Frameworks */,
+				E55477B0150330030075D4CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55477BE150330030075D4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55477C4150330030075D4CF /* SenTestingKit.framework in Frameworks */,
+				E55477C5150330030075D4CF /* UIKit.framework in Frameworks */,
+				E55477C6150330030075D4CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E521F14D1509D27E00FBA392 /* Foundation Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E521F1491509D23200FBA392 /* NSMutableData+MGMultipartFormData.h */,
+				E521F14B1509D26A00FBA392 /* NSMutableData+MGMultipartFormData.m */,
+			);
+			name = "Foundation Extension";
+			sourceTree = "<group>";
+		};
+		E554779C150330020075D4CF = {
+			isa = PBXGroup;
+			children = (
+				E521F14D1509D27E00FBA392 /* Foundation Extension */,
+				E55478311505602B0075D4CF /* Model */,
+				E55477B1150330030075D4CF /* MyMinigram */,
+				E55477C9150330030075D4CF /* MyMinigramTests */,
+				E55477AA150330030075D4CF /* Frameworks */,
+				E55477A8150330030075D4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E55477A8150330030075D4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55477A7150330030075D4CF /* MyMinigram.app */,
+				E55477C2150330030075D4CF /* MyMinigramTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55477AA150330030075D4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E554783515056F3A0075D4CF /* CoreLocation.framework */,
+				E55477AB150330030075D4CF /* UIKit.framework */,
+				E55477AD150330030075D4CF /* Foundation.framework */,
+				E55477AF150330030075D4CF /* CoreGraphics.framework */,
+				E55477C3150330030075D4CF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55477B1150330030075D4CF /* MyMinigram */ = {
+			isa = PBXGroup;
+			children = (
+				E55477DC1503EED70075D4CF /* PhotoStreamViewController.h */,
+				E55477DD1503EED70075D4CF /* PhotoStreamViewController.m */,
+				E55477DF1503EEFB0075D4CF /* PhotoDetailViewController.h */,
+				E55477E01503EEFB0075D4CF /* PhotoDetailViewController.m */,
+				E55477BA150330030075D4CF /* MyMinigramAppDelegate.h */,
+				E55477BB150330030075D4CF /* MyMinigramAppDelegate.m */,
+				E55477B2150330030075D4CF /* Supporting Files */,
+			);
+			path = MyMinigram;
+			sourceTree = "<group>";
+		};
+		E55477B2150330030075D4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E554786215088D940075D4CF /* camera-button-bar-background.png */,
+				E554786315088D940075D4CF /* camera-button-bar-background@2x.png */,
+				E554785E1508877C0075D4CF /* imageSourceOption.xib */,
+				E554786015088D2B0075D4CF /* imageCaptionBar.xib */,
+				E554783B15057DFB0075D4CF /* Placeholder.png */,
+				E55477DA1503E8AA0075D4CF /* Storyboard.storyboard */,
+				E55477B3150330030075D4CF /* MyMinigram-Info.plist */,
+				E55477B4150330030075D4CF /* InfoPlist.strings */,
+				E55477B7150330030075D4CF /* main.m */,
+				E55477B9150330030075D4CF /* MyMinigram-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E55477C9150330030075D4CF /* MyMinigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				E55477CF150330030075D4CF /* MyMinigramTests.h */,
+				E55477D0150330030075D4CF /* MyMinigramTests.m */,
+				E55477CA150330030075D4CF /* Supporting Files */,
+			);
+			path = MyMinigramTests;
+			sourceTree = "<group>";
+		};
+		E55477CA150330030075D4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E55477CB150330030075D4CF /* MyMinigramTests-Info.plist */,
+				E55477CC150330030075D4CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E55478311505602B0075D4CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E55478411505FC270075D4CF /* ThumbnailDownloader.h */,
+				E55478421505FC270075D4CF /* ThumbnailDownloader.m */,
+				E554785115072B580075D4CF /* ImageDownloader.h */,
+				E554785215072B590075D4CF /* ImageDownloader.m */,
+				E5547838150572030075D4CF /* PhotoCollection.h */,
+				E5547839150572030075D4CF /* PhotoCollection.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E55477A6150330030075D4CF /* MyMinigram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55477D4150330030075D4CF /* Build configuration list for PBXNativeTarget "MyMinigram" */;
+			buildPhases = (
+				E55477A3150330030075D4CF /* Sources */,
+				E55477A4150330030075D4CF /* Frameworks */,
+				E55477A5150330030075D4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMinigram;
+			productName = MyMinigram;
+			productReference = E55477A7150330030075D4CF /* MyMinigram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E55477C1150330030075D4CF /* MyMinigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55477D7150330030075D4CF /* Build configuration list for PBXNativeTarget "MyMinigramTests" */;
+			buildPhases = (
+				E55477BD150330030075D4CF /* Sources */,
+				E55477BE150330030075D4CF /* Frameworks */,
+				E55477BF150330030075D4CF /* Resources */,
+				E55477C0150330030075D4CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55477C8150330030075D4CF /* PBXTargetDependency */,
+			);
+			name = MyMinigramTests;
+			productName = MyMinigramTests;
+			productReference = E55477C2150330030075D4CF /* MyMinigramTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E554779E150330020075D4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E55477A1150330020075D4CF /* Build configuration list for PBXProject "MyMinigram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E554779C150330020075D4CF;
+			productRefGroup = E55477A8150330030075D4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E55477A6150330030075D4CF /* MyMinigram */,
+				E55477C1150330030075D4CF /* MyMinigramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E55477A5150330030075D4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55477B6150330030075D4CF /* InfoPlist.strings in Resources */,
+				E55477DB1503E8AA0075D4CF /* Storyboard.storyboard in Resources */,
+				E554783C15057DFB0075D4CF /* Placeholder.png in Resources */,
+				E554785F1508877C0075D4CF /* imageSourceOption.xib in Resources */,
+				E554786115088D2B0075D4CF /* imageCaptionBar.xib in Resources */,
+				E554786415088D950075D4CF /* camera-button-bar-background.png in Resources */,
+				E554786515088D950075D4CF /* camera-button-bar-background@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55477BF150330030075D4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55477CE150330030075D4CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E55477C0150330030075D4CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E55477A3150330030075D4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55477B8150330030075D4CF /* main.m in Sources */,
+				E55477BC150330030075D4CF /* MyMinigramAppDelegate.m in Sources */,
+				E55477DE1503EED70075D4CF /* PhotoStreamViewController.m in Sources */,
+				E55477E11503EEFB0075D4CF /* PhotoDetailViewController.m in Sources */,
+				E554783A150572030075D4CF /* PhotoCollection.m in Sources */,
+				E55478431505FC280075D4CF /* ThumbnailDownloader.m in Sources */,
+				E554785315072B590075D4CF /* ImageDownloader.m in Sources */,
+				E521F14C1509D26A00FBA392 /* NSMutableData+MGMultipartFormData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55477BD150330030075D4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55477D1150330030075D4CF /* MyMinigramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55477C8150330030075D4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55477A6150330030075D4CF /* MyMinigram */;
+			targetProxy = E55477C7150330030075D4CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E55477B4150330030075D4CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55477B5150330030075D4CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E55477CC150330030075D4CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55477CD150330030075D4CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E55477D2150330030075D4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E55477D3150330030075D4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E55477D5150330030075D4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMinigram/MyMinigram-Prefix.pch";
+				INFOPLIST_FILE = "MyMinigram/MyMinigram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E55477D6150330030075D4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMinigram/MyMinigram-Prefix.pch";
+				INFOPLIST_FILE = "MyMinigram/MyMinigram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E55477D8150330030075D4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyMinigram.app/MyMinigram";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMinigram/MyMinigram-Prefix.pch";
+				INFOPLIST_FILE = "MyMinigramTests/MyMinigramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E55477D9150330030075D4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyMinigram.app/MyMinigram";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMinigram/MyMinigram-Prefix.pch";
+				INFOPLIST_FILE = "MyMinigramTests/MyMinigramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E55477A1150330020075D4CF /* Build configuration list for PBXProject "MyMinigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55477D2150330030075D4CF /* Debug */,
+				E55477D3150330030075D4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55477D4150330030075D4CF /* Build configuration list for PBXNativeTarget "MyMinigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55477D5150330030075D4CF /* Debug */,
+				E55477D6150330030075D4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55477D7150330030075D4CF /* Build configuration list for PBXNativeTarget "MyMinigramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55477D8150330030075D4CF /* Debug */,
+				E55477D9150330030075D4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E554779E150330020075D4CF /* Project object */;
+}
